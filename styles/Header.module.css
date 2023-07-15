@@ -1,0 +1,31 @@
+.header {
+  @apply fixed top-0 left-0 right-0 bg-gradient-to-b from-sky-600 to-sky-100 py-5;
+}
+
+.header div:first-of-type {
+  @apply container flex items-center justify-end  space-x-8 lg:space-x-16;
+}
+
+.header div .logo {
+  @apply text-right text-center text-3xl pl-20 text-slate-600 hover:text-white transition duration-500 font-bold;
+}
+
+.header div .navItem {
+  @apply text-slate-600 font-bold capitalize hover:text-white transition duration-500;
+}
+
+.navbar {
+  @apply hidden md:flex justify-between flex-1;
+}
+
+.navbar div:first-of-type {
+  @apply flex items-center lg:text-lg space-x-4 lg:space-x-8;
+}
+
+.menu {
+  @apply hidden md:flex;
+}
+
+.linuxLogo {
+  @apply mr-5;
+}

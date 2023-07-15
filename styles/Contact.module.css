@@ -1,0 +1,27 @@
+.body {
+  @apply mb-[16rem] ml-[10rem] mt-[12rem];
+}
+
+.header {
+  @apply text-6xl text-gray-600 mt-[10rem]  mb-14;
+}
+
+.informations {
+  @apply text-gray-600   mb-4;
+}
+
+.textInput {
+  @apply placeholder:italic placeholder:text-slate-400 
+    mt-10
+    block bg-white border border-slate-300 
+    rounded-md pb-[5rem] pt-6 pl-8 pr-48 shadow-sm focus:outline-none 
+    focus:border-sky-500 focus:ring-sky-600 
+     sm:text-lg;
+}
+
+.button {
+  @apply bg-sky-600 p-4 text-white 
+  hover:bg-white hover:text-sky-600 shadow-2xl transition duration-500
+  font-bold rounded-full 
+  mt-8 px-24;
+}

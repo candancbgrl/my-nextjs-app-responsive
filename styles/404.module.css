@@ -1,0 +1,17 @@
+.body {
+  @apply mb-[26rem];
+}
+
+.error {
+  @apply grid justify-center items-center mt-[20rem];
+}
+
+.errorText {
+  @apply text-4xl text-gray-600;
+}
+.errorMessages {
+  @apply text-xl text-gray-500;
+}
+.hrStyle {
+ @apply h-0.5 w-[21rem] bg-gray-500
+}

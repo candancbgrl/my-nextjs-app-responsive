@@ -1,0 +1,50 @@
+.footer {
+  @apply p-8 
+  bg-gradient-to-t from-gray-400 to-gray-100
+  ;
+}
+
+.footHeader {
+  @apply text-sky-600 hover:text-zinc-400 text-8xl;
+}
+.footText {
+  @apply text-zinc-700 text-lg max-w-sm mt-4;
+}
+.footerItems {
+  @apply p-1 flex items-center justify-center;
+}
+.facebook {
+  @apply text-sky-800 h-7 w-7 mr-20;
+}
+.twitter {
+  @apply text-blue-500  h-7 w-7 mr-20;
+}
+.instagram {
+  @apply text-red-500  h-7 w-7 mr-28;
+}
+.confluence{
+  @apply text-sky-600 h-4 w-4 mr-4;
+}
+
+.div1 {
+  @apply p-8;
+}
+
+.div2 {
+  @apply grid grid-cols-3 justify-center items-center;
+}
+
+.div3 {
+  @apply grid grid-rows-3 gap-4
+  text-zinc-700 text-lg mr-8 
+  justify-end items-center;
+}
+.div4 {
+  @apply grid grid-rows-3 gap-4 ml-28
+   text-zinc-700 text-lg 
+   justify-start items-center;
+}
+
+.subRows{
+  @apply grid grid-cols-2;
+}

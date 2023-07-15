@@ -1,0 +1,59 @@
+.body {
+  @apply mb-[8rem] mt-[7rem];
+}
+
+.divFirst {
+  @apply grid grid-cols-2 gap-10 pl-48;
+}
+
+.paging {
+  @apply flex justify-center mt-5;
+}
+.pagingItem {
+  @apply text-xl font-bold 
+  text-sky-600 hover:text-white
+  bg-white hover:bg-sky-600
+  shadow-2xl border-solid border-sky-600 border-2;
+}
+
+.postItem {
+  @apply text-sky-600 hover:text-white rounded mb-6 w-2/4 
+  bg-white hover:bg-gradient-to-r from-sky-600 to-sky-100
+  flex h-28 rounded-lg items-center items-center pl-10
+  border-solid border-4 border-sky-600  hover:border-white
+  rounded-2xl;
+}
+
+.posts {
+  @apply flex justify-center items-center;
+}
+.postDetail {
+  @apply w-2/3 py-8 px-10 max-h-96 my-20 
+    text-white hover:text-sky-600 text-xl transition duration-500
+    shadow-2xl
+    bg-sky-600 hover:bg-white  rounded-2xl;
+}
+.comments {
+  @apply mr-20 mt-10 max-w-7xl px-5 py-10
+    rounded-2xl
+    text-lg text-zinc-400 hover:text-xl 
+    shadow-lg hover:shadow-2xl
+    transition duration-500;
+}
+.commentHeader {
+  @apply mt-10
+    text-4xl text-gray-500 hover:text-sky-600 transition duration-500;
+}
+
+.postHeader {
+  @apply text-6xl ml-[29rem] mb-6 text-zinc-500 hover:text-sky-600;
+}
+
+.postIdButton {
+  @apply flex justify-center items-center
+  bg-white hover:bg-sky-600 text-sky-600 font-bold
+  w-[40px] h-[40px] rounded-full;
+}
+.name {
+  @apply text-sky-600;
+}

@@ -1,0 +1,17 @@
+.body {
+  @apply mb-[22rem] ml-[10rem] mt-[14rem];
+}
+.header {
+  @apply text-6xl text-gray-600 mt-[10rem]  mb-14;
+}
+
+.informations {
+  @apply text-gray-600 mb-4 max-w-5xl mb-16;
+}
+
+.button {
+  @apply bg-sky-600 p-4 text-white 
+    hover:bg-white hover:text-sky-600 shadow-2xl transition duration-500
+    font-bold rounded-full 
+    px-24;
+}
